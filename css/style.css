@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+    align-items: center;
+    background: rgb(251,157,63);
+    background: linear-gradient(0deg, rgba(251,157,63,1) 17%, rgba(254,203,92,1) 66%);    
+    color: #ffffff;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    margin: 0 15px 0 15px;
+}
+.root-list{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.root-list span{
+    padding: 15px;
+}
+h2{
+    font-size: 32px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.img-game{
+    display: flex;
+    flex-direction: column;
+    width: 65vh;
+    border-right: 1px solid black;
+    align-items: center;
+    padding: 20px;
+    padding-right: 0px;
+    
+}
+.img-game img{
+    width: 100%;
+}
+.img-left-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.img-left, .img-right {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 35px;
+    height: 180px;
+}
+.content-game{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    
+    align-items: left;
+    padding: 20px;
+    padding-right: 0px;
+    padding-left: 30px;
+    
+}
+.note{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+.note div span{
+    margin-left: 10px;
+    font-size: 17px;
+}
+div svg{
+    margin-right: 8px;
+    color:#ffd964;
+    padding-top: 0;
+}
+
+.price{
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    transition-duration: 0.4s;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    box-shadow: 2px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 5px 10px 0 rgba(0,0,0,0.19);
+  }
+button:hover {
+    background-color: #ffffff; /* Green */
+    color: rgb(0, 0, 0);
+}
+.description-game{
+    width: 60vh;
+    text-align: justify;
+}
+.msg{
+  position: fixed;
+  bottom: 2%;
+  right: 1.5%;
+}
